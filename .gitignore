@@ -1,0 +1,7 @@
+node_modules
+src/reports/reporter/allure-results
+allure-report/
+.env
+.vscode
+src/reports/
+mochawesome-report

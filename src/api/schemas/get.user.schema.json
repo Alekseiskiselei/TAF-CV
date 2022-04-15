@@ -1,0 +1,54 @@
+{
+    "title": "GET User",
+    "description": "Get some user with GET request",
+    "type": "object",
+
+    "properties": {
+        "id": {
+            "$id": "#/properties/id",
+            "description": "id of the user",
+            "type": "integer"
+        },
+        "username": {
+            "$id": "#/properties/username",
+            "description": "username of the user",
+            "type": "string"
+        },
+        "firstName": {
+            "$id": "#/properties/firstName",
+            "description": "first name of the user",
+            "type": "string"
+        },
+        "lastName": {
+            "$id": "#/properties/lastName",
+            "description": "last name of the user",
+            "type": "string"
+        },
+        "email": {
+            "$id": "#/properties/email",
+            "description": "email of the user",
+            "type": "string"
+        },
+        "password": {
+            "$id": "#/properties/password",
+            "description": "password of the user",
+            "type": "string"
+        },
+        "phone": {
+            "$id": "#/properties/phone",
+            "description": "phone of the user",
+            "type": "string"
+        },
+        "userStatus": {
+            "$id": "#/properties/userStatus",
+            "description": "status of the user",
+            "type": "integer"
+        }
+    },
+    "required": [
+        "id", 
+        "username",
+        "email",
+        "password"
+    ] 
+}

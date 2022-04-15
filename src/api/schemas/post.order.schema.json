@@ -1,0 +1,40 @@
+{
+  "title": "POST order",
+  "description": "Post order data",
+  "type": "object",
+
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "description": "id of order",
+      "type": "integer"
+    },
+    "petId": {
+      "$id": "#/properties/petId",
+      "description": "pet id",
+      "type": "integer"
+    },
+    "quantity": {
+      "$id": "#/properties/quantity",
+      "description": "number of pets",
+      "type": "integer"
+    },
+    "shipDate": {
+      "$id": "#/properties/shipDate",
+      "description": "ship date",
+      "type": "string"
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "description": "order status",
+      "type": "string"
+    },
+    "complete": {
+      "$id": "#/properties/complete",
+      "description": "order completion",
+      "type": "boolean"
+    }
+  },
+
+  "required": ["id", "petId", "quantity", "shipDate", "status", "complete"]
+}

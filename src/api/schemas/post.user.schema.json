@@ -1,0 +1,27 @@
+{
+    "title": "POST User",
+    "description": "Creation new user with POST request",
+    "type": "object",
+
+    "properties": {
+        "code": {
+            "$id": "#/properties/code",
+            "description": "response status code",
+            "type": "integer"
+        },
+        "type": {
+            "$id": "#/properties/type",
+            "description": "unknown",
+            "type": "string"
+        },
+        "message": {
+            "$id": "#/properties/message",
+            "description": "Contains created user's id",
+            "type": "string"
+        }
+    },
+    "required": [
+        "code", 
+        "message"
+    ] 
+}

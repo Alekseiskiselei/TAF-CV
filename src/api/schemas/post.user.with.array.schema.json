@@ -1,0 +1,27 @@
+{
+    "title": "POST users array",
+    "description": "Post array of new users",
+    "type": "object",
+    "properties": {
+      "code": {
+        "$id": "#/properties/code",
+        "description": "status code",
+        "type": "integer"
+      },
+      "type": {
+        "$id": "#/properties/type",
+        "description": "contains type",
+        "type": "string"
+      },
+      "message": {
+        "$id": "#/properties/message",
+        "description": "contains massage",
+        "type": "string"
+      }
+    },
+    "required": [
+      "code",
+      "type",
+      "message"
+    ]
+  }

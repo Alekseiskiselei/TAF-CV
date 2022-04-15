@@ -1,0 +1,27 @@
+{
+    "title": "DELETE User",
+    "description": "Delete user with DELETE request",
+    "type": "object",
+
+    "properties": {
+        "code": {
+            "$id": "#/properties/code",
+            "description": "response status code",
+            "type": "integer"
+        },
+        "type": {
+            "$id": "#/properties/type",
+            "description": "unknown",
+            "type": "string"
+        },
+        "message": {
+            "$id": "#/properties/message",
+            "description": "Contains deleted user's id",
+            "type": "string"
+        }
+    },
+    "required": [
+        "code", 
+        "message"
+    ] 
+}
